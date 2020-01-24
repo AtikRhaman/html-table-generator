@@ -1,0 +1,32 @@
+.button {
+    padding: 14px 40px;
+    margin: 20px 0;
+    background: $color-primary;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: $color-white;
+    text-align: center;
+    display: inline-block;
+
+    transform: scale(1);
+    transition: transform 0.35s ease-in-out;
+}
+
+.button:hover {
+    background: $color-primary;
+    transform: scale(1.030);
+}
+
+.btn_secoundary {
+    background: $color-secoundary;
+}
+
+.btn_primary {
+    background: $color-primary;
+}
+
+.btn_primary--copy {
+    background: $color-primary;
+    width: 224px;
+}

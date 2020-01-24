@@ -1,0 +1,14 @@
+//sections
+.wrap {
+    //for sticky footer
+    min-height: calc(100vh - 100px);
+}
+
+.table-section {
+    padding: 0 0 60px 0;
+    margin-top: 230px;
+}
+
+.footer-section {
+    background: $color-primary;
+}
